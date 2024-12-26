@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favion.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <title>ხელფასმთვლელი</title>
+  </head>
+  <body>
+    <div class="counter-cont">
+      <h1>ხელფასმთვლელი 💰</h1>
+      <div>
+        <label for="monthHours">მთლიანი თვის საათების რაოდენობა:</label>
+        <input type="number" id="monthHours" />
+      </div>
+      <div>
+        <label for="wagePerHour">ანაზღაურება ერთ საათში:</label>
+        <input type="number" id="wagePerHour" />
+      </div>
+
+      <input type="submit" name="" id="calc" value="გამოთვალე" />
+      <p><span>მთლიანი ხელფასი : </span><span id="fullWage"></span></p>
+      <p><span>ხელზე ასაღები ხელფასი :</span><span id="leftWage"></span></p>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
